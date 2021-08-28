@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTesting">
+<groups>
+<run>
+<include name="RegressionTesting"></include>
+<include name="SmokeTesting"/>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vtiger.comcast.producttest.Search_Product"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- RegressionTesting -->
